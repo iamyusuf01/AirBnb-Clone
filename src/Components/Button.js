@@ -9,7 +9,7 @@ const Button = () => {
             ButtonsList.map((button, b)=> {
                 return (
                     <button key={b} className='hover:scale-95 transition-all' >
-                        <li className='px-4 pb-4 font-medium text-[14px] leading-4 text-gray-500 hover:text-black'>{button.name}</li>
+                        <li className='px-4 pb-4 font-medium text-[14px] leading-4 text-gray-500 hover:text-black '>{button.name}</li>
                     </button>
                 )
             })

@@ -8,7 +8,7 @@
     }
 
    return (
-     <div  className='p-6 h-18 w-full  flex flex-grow justify-center gap-12 item-center  '>
+     <div  className='p-6 h-18 w-full  flex flex-grow justify-center gap-12 item-center max-[744px]:w-[270px] '>
       {
         navDetails.map((nav , i) => {
             return(
@@ -16,7 +16,7 @@
                 hover:scale-95 transition-all '>
                    <button onClick={handleClick} className='text-gray-400 hover:text-black font-medium ' >
                    <img className='h-6 m-auto' src={nav.imgNewUrl} alt='logo'/>
-                   <p className='text-[12px]'>{nav.icons}</p>
+                   <p className='text-[12px] '>{nav.icons}</p>
                    <div className='h-[1.5px]'></div>
                    </button>
                     

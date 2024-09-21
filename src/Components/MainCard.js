@@ -3,13 +3,13 @@ import {secCardList} from '../Constant'
 
 const MainCard = () => {
   return (
-    <div>
-        <h1 className=' pl-10 font-medium text-[32px] text-black leading-9'>Past experience</h1>
-        <div className="flex justify-evenly flex-wrap">
+    <div className='max-[740]:w-full '>
+        <h1 className=' pl-10 font-medium text-[32px] text-black leading-9 sm:pl-16'>Past experience</h1>
+        <div className="flex justify-evenly flex-wrap sm:pt-5">
         {
             secCardList.map((card, j) => {
                     return (
-                        <div>
+                        <div className=' sm:pb-3'>
                             <div className="flex p-2 pt-3 rounded-3xl h-[280px] w-[280px] relative hover:scale-95 transition-all">
                                 <img className="object-cover border shadow-lg rounded-2xl" src={card.imgUrl} alt=''/>
                               

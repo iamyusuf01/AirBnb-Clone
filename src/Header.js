@@ -13,16 +13,16 @@ const Header = () => {
     }
     return (
         <section className="h-52">
-            <header className="border shadow-sm h-44 p-8 text-center ">
+            <header className="border shadow-sm h-44 p-8 text-center  max-[740px]:h-56 ">
                 <nav className="flex justify-between ">
                     <Title />
                     <MidTitle />
-                    <ul className="flex justify-between gap-4 ">
-                        <li className="font-medium text-[15px] text-black leading-5">Airbnb your home</li>
-                        <button onClick={clickeNow} className="h-5 w-6"> <li><TbWorld /></li></button>
+                    <ul className="flex justify-between gap-4 max-[740px]:pr-4 ">
+                        <li className="font-medium text-[15px] text-black leading-5 max-[740px]:text-[16px]">Airbnb your home</li>
+                        <button onClick={clickeNow} className="h-6 w-7 "> <li><TbWorld className="w-full" /></li></button>
         
-                            <li className="flex gap-1 ">
-                                <LuMenu className="h-6 w-full" />
+                            <li className="flex gap-1 max-[740px]:w-15">
+                                <LuMenu className="h-6 w-full " />
                                 <IoPersonCircleOutline className="h-6  w-full" />
                             </li>
                     </ul>

@@ -10,9 +10,9 @@ import { TbWorld } from "react-icons/tb";
 
 const Footer = () => {
   return (
-    <div className='bg-gray-100 mt-10'>
+    <div className='bg-gray-100 mt-10 max-[740px]:w-full '>
       <h1 className='font-medium text-[22px] text-black leading-7 p-8'>Inspiration for future getaways</h1>
-      <Button className="h-40" />
+      <Button className="h-40 " />
       <div className='border-b-[1.3px] border-b-gray-400 pb-12 p-8 '>
         <ul className='grid grid-cols-6 gap-2  '>
           {
